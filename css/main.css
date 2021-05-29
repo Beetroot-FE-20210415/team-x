@@ -1,3 +1,38 @@
+.header {
+  background: url(../img/img-header/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header__nav {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__nav a {
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.header__nav svg {
+  position: relative;
+  top: 50px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +42,7 @@
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -85,78 +121,68 @@ h6 {
   font-weight: 400;
 }
 
-.header {
-  background: url(../img/img-header/header-bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-}
-
-.header__nav {
-  max-width: 1800px;
-  margin: 0 auto;
+.menu__header {
+  max-width: 100%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header__nav a {
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-
-.header__nav svg {
-  position: relative;
-  top: 50px;
-}
-
-body {
-  font-family: "Dosis", sans-serif;
-}
-
-/*# sourceMappingURL=main.css.map */
-
-.infomain {
-  display: flex;
-  flex-direction: row;
-}
-
-.textplace {
-  text-align: center;
-}
-
-.hone {
+.menu__header--head {
   font-size: 36px;
-  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.yellowstring {
-  width: 100px;
-  border-top: 3px solid #E8C300;
-  margin: 20px auto;
-}
-
-.hsix {
+.menu__header--main {
+  max-width: 40%;
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
   font-size: 18px;
   line-height: 28px;
-  font-weight: 700;
-
 }
 
-.discription {}
-
-.imagesbackground {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: ;
+.menu__nav {
+  max-width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 30px, auto;
 }
 
-.brick {}
+.menu__nav--item {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  border-right: solid #d6d6d6;
+  padding: 10px 50px;
+}
 
-/* Для блоков*/
+.menu__nav--lastitem {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 10px 50px;
+}
+/*# sourceMappingURL=main.css.map */
