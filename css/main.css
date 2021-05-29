@@ -92,7 +92,7 @@ h6 {
   background-size: cover;
   min-height: 100vh;
 }
-<<<<<<< Updated upstream
+
 .header__nav {
   max-width: 1800px;
   margin: 0 auto;
@@ -100,6 +100,7 @@ h6 {
   justify-content: space-around;
   align-items: center;
 }
+
 .header__nav a {
   color: white;
   font-style: normal;
@@ -108,6 +109,7 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
+
 .header__nav svg {
   position: relative;
   top: 50px;
@@ -115,10 +117,14 @@ h6 {
 
 body {
   font-family: "Dosis", sans-serif;
-}/*# sourceMappingURL=main.css.map */
-=======
+}
 
-.infomain {}
+/*# sourceMappingURL=main.css.map */
+
+.infomain {
+  display: flex;
+  flex-direction: row;
+}
 
 .textplace {
   text-align: center;
@@ -126,6 +132,7 @@ body {
 
 .hone {
   font-size: 36px;
+  font-weight: 700;
 }
 
 .yellowstring {
@@ -135,14 +142,21 @@ body {
 }
 
 .hsix {
-  font-size: 36px;
-  line-height: 48px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
 
 }
 
 .discription {}
 
-.imagesbackground {}
+.imagesbackground {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: ;
+}
 
 .brick {}
->>>>>>> Stashed changes
+
+/* Для блоков*/
