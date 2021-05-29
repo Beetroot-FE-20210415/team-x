@@ -91,8 +91,8 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  color: white;
 }
-
 .header__nav {
   max-width: 1800px;
   margin: 0 auto;
@@ -100,7 +100,6 @@ h6 {
   justify-content: space-around;
   align-items: center;
 }
-
 .header__nav a {
   color: white;
   font-style: normal;
@@ -109,54 +108,27 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
-
 .header__nav svg {
   position: relative;
   top: 50px;
 }
 
+.hungry_people {
+  min-height: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+.hungry_people__timetable {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  -webkit-text-orientation: mixed;
+          text-orientation: mixed;
+  transform: rotate(180deg);
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
 body {
   font-family: "Dosis", sans-serif;
-}
-
-/*# sourceMappingURL=main.css.map */
-
-.infomain {
-  display: flex;
-  flex-direction: row;
-}
-
-.textplace {
-  text-align: center;
-}
-
-.hone {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-.yellowstring {
-  width: 100px;
-  border-top: 3px solid #E8C300;
-  margin: 20px auto;
-}
-
-.hsix {
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 700;
-
-}
-
-.discription {}
-
-.imagesbackground {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: ;
-}
-
-.brick {}
-
-/* Для блоков*/
+}/*# sourceMappingURL=main.css.map */
