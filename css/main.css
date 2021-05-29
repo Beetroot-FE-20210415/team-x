@@ -5,6 +5,7 @@
   background-size: cover;
   min-height: 100vh;
 }
+
 .header__nav a {
   color: white;
 }
@@ -18,6 +19,7 @@
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -94,4 +96,69 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: 400;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.menu__header {
+  max-width: 100%;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__header--head {
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu__header--main {
+  max-width: 40%;
+  padding-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.menu__nav {
+  max-width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu__nav--item {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  border-right: solid #d6d6d6;
+  padding: 10px 50px;
+}
+
+.menu__nav--lastitem {
+  text-align: center;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 10px 50px;
+}
+/*# sourceMappingURL=main.css.map */
