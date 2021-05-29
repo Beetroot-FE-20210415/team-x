@@ -168,7 +168,7 @@ h6 {
           justify-content: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 30px auto;
+  padding: 30px, auto;
 }
 
 .menu__nav--item {
