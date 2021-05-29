@@ -92,6 +92,7 @@ h6 {
   background-size: cover;
   min-height: 100vh;
 }
+<<<<<<< Updated upstream
 .header__nav {
   max-width: 1800px;
   margin: 0 auto;
@@ -115,3 +116,33 @@ h6 {
 body {
   font-family: "Dosis", sans-serif;
 }/*# sourceMappingURL=main.css.map */
+=======
+
+.infomain {}
+
+.textplace {
+  text-align: center;
+}
+
+.hone {
+  font-size: 36px;
+}
+
+.yellowstring {
+  width: 100px;
+  border-top: 3px solid #E8C300;
+  margin: 20px auto;
+}
+
+.hsix {
+  font-size: 36px;
+  line-height: 48px;
+
+}
+
+.discription {}
+
+.imagesbackground {}
+
+.brick {}
+>>>>>>> Stashed changes
