@@ -1,0 +1,15 @@
+.header{
+    background: url(../img/img-header/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+    &__nav{
+        
+
+        a{
+            color: white;
+        }
+    }
+}
