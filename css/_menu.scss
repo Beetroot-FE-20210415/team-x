@@ -31,7 +31,7 @@
   justify-content: center;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 30px, auto;
+  padding: 30px 50px;
 }
 .menu__nav--item {
   text-align: center;
@@ -46,4 +46,34 @@
   font-size: 12px;
   line-height: 18px;
   padding: 10px 50px;
+}
+.menu__nav--link {
+  color: black;
+  text-decoration: none;
+}
+.menu__nav--link:hover {
+  border-bottom: solid 2px #e8c300;
+}
+.menu__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu__content--column {
+  max-width: 380px;
+}
+.menu__content--item {
+  padding-bottom: 50px;
+}
+
+.menu__content--dish {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+}
+.menu__content--description {
+  color: darkgray;
+  font-size: 12px;
+  line-height: 18px;
 }

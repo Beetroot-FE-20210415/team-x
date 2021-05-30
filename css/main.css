@@ -1,3 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
 .header {
   background: url(../img/img-header/header-bg.jpg);
   background-position: center;
@@ -6,8 +94,35 @@
   min-height: 100vh;
 }
 
+.header__nav {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .header__nav a {
   color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.header__nav svg {
+  position: relative;
+  top: 50px;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
 }
 
 * {
@@ -106,11 +221,11 @@ h6 {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .menu__header--head {
@@ -138,13 +253,14 @@ h6 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 30px 50px;
 }
 
 .menu__nav--item {
@@ -161,35 +277,45 @@ h6 {
   line-height: 18px;
   padding: 10px 50px;
 }
-/*# sourceMappingURL=main.css.map */
 
-.header {
-  background: url(../img/img-header/header-bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+.menu__nav--link {
+  color: black;
+  text-decoration: none;
 }
-.header__nav {
-  max-width: 1800px;
-  margin: 0 auto;
+
+.menu__nav--link:hover {
+  border-bottom: solid 2px #e8c300;
+}
+
+.menu__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.header__nav a {
-  color: white;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-}
-.header__nav svg {
-  position: relative;
-  top: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-body {
-  font-family: "Dosis", sans-serif;
-} /*# sourceMappingURL=main.css.map */
+.menu__content--column {
+  max-width: 380px;
+}
+
+.menu__content--item {
+  padding-bottom: 50px;
+}
+
+.menu__content--dish {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.menu__content--description {
+  color: darkgray;
+  font-size: 12px;
+  line-height: 18px;
+}
+/*# sourceMappingURL=main.css.map */
