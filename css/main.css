@@ -582,7 +582,7 @@ body {
 
 .master {
   color: white;
-  background-image: url("/img/img-about/specialty's-bg.png");
+  background-image: url("../img/img-about/specialty's-bg.png");
   background-size: cover;
 }
 
@@ -600,7 +600,7 @@ body {
 
 .chocolate {
   color: white;
-  background-image: url("/img/img-about/specialty's-bgsec.png");
+  background-image: url("../img/img-about/specialty's-bgsec.png");
   background-size: cover;
 }
 
