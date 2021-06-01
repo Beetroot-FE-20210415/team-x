@@ -38,10 +38,10 @@
 }
 
 .container-contact {
-    max-width: 1280px;
+    max-width: 1900px;
     height: 300px;
     margin: 50px auto 0;
-    padding: 0 15px 100px;
+    padding: 0 80px 100px;
 }
 
 .row {
@@ -165,6 +165,7 @@
     font-weight: 400;  
 }
 
+
 @media screen and (max-width: 800px) {
     .contact__link {
         display: block;
@@ -173,7 +174,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .row {
         flex-direction: column;
     }
@@ -209,3 +210,4 @@
         margin-top: 15px;
     }
 }
+
