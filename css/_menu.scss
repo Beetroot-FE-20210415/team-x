@@ -78,7 +78,7 @@
   line-height: 18px;
 }
 /* Dropdown Button */
-.dropbtn {
+.menu__dropbtn {
   background-color: black;
   color: white;
   padding: 16px;
@@ -88,13 +88,13 @@
 }
 
 /* The container <div> - needed to position the dropdown content */
-.dropdown {
+.menu__dropdown {
   position: relative;
   display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
+.menu__dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -104,7 +104,7 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.menu__dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
@@ -112,17 +112,17 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
+.menu__dropdown-content a:hover {
   background-color: #ddd;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.menu__dropdown:hover .menu__dropdown-content {
   display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+.menu__dropdown:hover .menu__dropbtn {
   background-color: #e8c300;
   color: black;
 }
@@ -144,7 +144,7 @@
   }
 }
 @media screen and(max-width:960px) {
-  .dropbtn {
+  .menu__dropbtn {
     display: block;
   }
   .menu__nav--item,
