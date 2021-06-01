@@ -1,0 +1,188 @@
+.about__main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infomain {
+  padding: 50px;
+  height: 100%;
+  display: flex;
+}
+
+.textplace {
+  text-align: center;
+  width: 50%;
+}
+
+.imagesbackground {
+  width: 40%;
+  position: relative;
+}
+
+.img_wrap {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.img_wrap:before {
+  content: "";
+  padding-top: 100%;
+  float: left;
+}
+
+.imagesbackground .img_wrap img {
+  width: 100%;
+  height: 100%;
+}
+
+.imagesbackground:after {
+  content: "";
+  position: absolute;
+  border: 20px solid rgba(232, 195, 0, 1);
+  display: block;
+  width: 50%;
+  height: 50%;
+  border-radius: 3px;
+  top: 50%;
+}
+
+.imagesbackground.right_side:after {
+  left: 100%;
+  right: auto;
+  transform: translate(calc(-50% - 50px), -50%);
+}
+
+.imagesbackground.left_side:after {
+  right: 100%;
+  left: auto;
+  transform: translate(calc(50% + 50px), -50%);
+}
+
+.hone {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.yellowstring {
+  width: 60px;
+  height: 5px;
+  background-color: #e8c300;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.hsix {
+  font-size: 36px;
+  line-height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.discription {
+  width: 100%;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.master__main {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.master {
+  color: white;
+  background-image: url("../img/img-about/specialty's-bg.png");
+  background-size: cover;
+}
+
+.hsecond {
+  margin-top: 30px;
+  letter-spacing: 0.5em;
+  font-weight: 700;
+}
+
+.chocolate__main {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.chocolate {
+  color: white;
+  background-image: url("../img/img-about/specialty's-bgsec.png");
+  background-size: cover;
+}
+
+.chocolate__flip {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 50px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.flipper {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.flipper:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.book__main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.book__inputstack {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.book__inputstack > div {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.book__input {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  background-color: rgba(229, 229, 229, 1);
+  color: rgba(51, 51, 51, 5);
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/*Тут надо паддинги под адаптив*/
+
+.book__inputsumbit {
+  padding: 20px 42.5%;
+  border-radius: 5px;
+  background-color: rgba(232, 195, 0, 1);
+  margin: 0 auto;
+}
