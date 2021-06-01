@@ -143,6 +143,14 @@
     margin-left: 20%;
   }
 }
+@media screen and(max-width:400px) {
+  .menu__content {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+}
 @media screen and(max-width:960px) {
   .menu__dropbtn {
     display: block;
