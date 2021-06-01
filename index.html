@@ -112,10 +112,12 @@
       <script>
         function openNav() {
           document.getElementById("mySidenav").style.width = "100vw";
+          document.body.style.overflow = "hidden";
         }
 
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
+          document.body.style.overflow = "auto";
         }
       </script>
 
